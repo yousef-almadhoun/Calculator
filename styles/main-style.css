@@ -1,0 +1,81 @@
+/* Start Global */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+/* End Global */
+
+section {
+    width: 25vw;
+    background-color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+section .display-input {
+    display: block;
+    padding: 12px;
+    font-size: 46px;
+    width: 100%;
+    height: 130px;
+}
+
+.btn-controls article {
+    display: flex;
+    padding: 5px;
+}
+
+.btn-controls article label {
+    margin-right: 5px;
+}
+
+.btn-controls article label:last-of-type {
+    margin-right: 0;
+}
+
+.btn {
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+    padding: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.btn-large {
+    width: 50%;
+}
+
+.btn-control {
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.btn-control:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.btn-number {
+    background-color: rgb(235, 233, 233);
+    color: black;
+    transition: all 0.3s;
+}
+
+.btn-number:hover {
+    background-color: #6563ff;
+    color: #fff;
+}
